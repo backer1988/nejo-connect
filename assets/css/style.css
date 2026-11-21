@@ -561,7 +561,7 @@ p.placeholder { display: block; padding: 0.6rem 0.8rem; }
 .testimonial blockquote { margin: 0 0 1rem; font-family: var(--font-head); font-size: 1.2rem; line-height: 1.45; color: var(--navy-800); }
 .testimonial figcaption { color: var(--muted); font-size: 0.95rem; }
 
-.testimonial-empty {
+.empty-state {
   display: flex;
   gap: 1.25rem;
   align-items: flex-start;
@@ -571,9 +571,9 @@ p.placeholder { display: block; padding: 0.6rem 0.8rem; }
   background: rgb(255 255 255 / 0.6);
   max-width: 46rem;
 }
-.testimonial-empty svg { flex: none; width: 2.5rem; height: 2.5rem; color: var(--wine-700); }
-.testimonial-empty p { color: var(--muted); }
-.testimonial-empty strong { display: block; margin-bottom: 0.25rem; font-family: var(--font-head); font-size: 1.25rem; font-weight: 600; color: var(--navy-800); }
+.empty-state svg { flex: none; width: 2.5rem; height: 2.5rem; color: var(--wine-700); }
+.empty-state p { color: var(--muted); }
+.empty-state strong { display: block; margin-bottom: 0.25rem; font-family: var(--font-head); font-size: 1.25rem; font-weight: 600; color: var(--navy-800); }
 
 /* ---------- Kontakt ---------- */
 .section-contact {

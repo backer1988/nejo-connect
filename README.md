@@ -30,11 +30,24 @@ Suche im Code nach `placeholder` bzw. `PLATZHALTER`.
 - [ ] **Über uns, Nele:** Ausbildung und weitere Stationen
 - [ ] **Fotos:** `assets/img/nele.jpg` und `assets/img/johannes.jpg` ablegen (quadratisch,
       mind. 400 × 400 px) und den Platzhalter laut Kommentar in `index.html` ersetzen
+- [ ] **Referenzen:** Projekte erst eintragen, wenn Kunden zugestimmt haben
+      (Vorlage als Kommentar im Abschnitt „Referenzen“)
 - [ ] **Kundenstimmen:** erst eintragen, wenn echte Rückmeldungen mit Freigabe vorliegen
       (Vorlage als Kommentar im Abschnitt „Stimmen“)
+- [ ] **Offizieller Start:** `noindex`-Zeile entfernen (siehe „Suchmaschinen“)
 
 Impressum und Datenschutzerklärung sind sorgfältig erstellte Vorlagen, aber keine Rechtsberatung.
 Bitte vor dem Livegang prüfen (lassen).
+
+## Suchmaschinen
+
+Solange die Seite im Aufbau ist, enthalten alle drei HTML-Seiten
+`<meta name="robots" content="noindex, nofollow">`. Google und andere seriöse Suchmaschinen
+nehmen die Seiten dann nicht in ihre Ergebnisse auf. **Zum offiziellen Start diese Zeile in
+`index.html`, `impressum.html` und `datenschutz.html` entfernen.**
+
+Das Repository selbst (github.com/backer1988/nejo-connect) ist davon nicht erfasst: Solange es
+öffentlich ist, kann es bei Google auftauchen.
 
 ## Lokal ansehen
 
