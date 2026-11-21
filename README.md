@@ -19,11 +19,10 @@ assets/img/         Logo, Favicons, Vorschaubild für Social Media
 Alle Platzhalter sind auf der Seite **gelb markiert** (CSS-Klasse `placeholder`).
 Suche im Code nach `placeholder` bzw. `PLATZHALTER`.
 
-- [ ] **Impressum:** Straße, Hausnummer, PLZ (Pflichtangabe, ohne Anschrift nicht live gehen)
-- [ ] **Impressum:** Telefonnummer (empfohlen als zweiter schneller Kontaktweg) oder Zeile entfernen
-- [ ] **Impressum:** USt-IdNr. eintragen oder Abschnitt entfernen
-- [ ] **Impressum:** Registereintrag nur bei eingetragener GbR (dann „eGbR“), sonst Abschnitt entfernen
-- [ ] **Datenschutz:** Anschrift (wie Impressum)
+- [x] **Impressum:** Anschrift und Telefon (Johannes Backer, Lüneburg)
+- [ ] **Impressum:** Falls eine USt-IdNr. vergeben wird oder die GbR ins Gesellschaftsregister
+      eingetragen wird (dann „eGbR“), Angaben im Impressum ergänzen
+- [x] **Datenschutz:** Anschrift
 - [ ] **Datenschutz:** Name und Sitz des E-Mail-Anbieters; Auftragsverarbeitungsvertrag abschließen
 - [ ] **Datenschutz, Abschnitt 2 (GitHub):** Angaben gegen die aktuelle Datenschutzerklärung von
       GitHub prüfen (DPF-Zertifizierung, Anschrift, Link). Sie konnten bei der Erstellung nicht
